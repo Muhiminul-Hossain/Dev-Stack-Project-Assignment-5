@@ -7,7 +7,7 @@ interface TechnologiesProps {
   stackNumber: number;
   setStackNumber: Dispatch<SetStateAction<number>>;
   selectedStack:object[];
-  setSelectedStack:Dispatch<SetStateAction<number>>
+  setSelectedStack: Dispatch<SetStateAction<ITechnologies[]>>;
 }
 const Technologies = ({
   technologiesPromise,

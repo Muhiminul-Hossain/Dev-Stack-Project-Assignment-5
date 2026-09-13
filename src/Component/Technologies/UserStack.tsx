@@ -1,6 +1,6 @@
 import { type Dispatch, type SetStateAction } from "react";
 import { TbTrash } from "react-icons/tb";
-import type { ITechnologies } from "../../Types/Technologies";
+import type { ITechnologies } from "../../../Types/Technologies";
 import { toast } from "react-toastify";
 
 interface IUserStackProps {
@@ -11,7 +11,7 @@ interface IUserStackProps {
 }
 
 const UserStack = ({
-  stackNumber,
+
   setStackNumber,
   selectedStack,
   setSelectedStack,
