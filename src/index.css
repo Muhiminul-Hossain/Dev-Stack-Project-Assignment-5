@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@theme{
+    --background-image-brand-color:linear-gradient(to right , #e65100, #d81b60, #6a1b9a)
+}
+.brand-text {
+  background-image: var(--background-image-brand-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.inter-font{
+    font-family: "Inter";
+}
+.jakarta-font{
+    font-family:"Plus Jakarta Sans";
+}
+.mobile-brand-icon{
+    background: linear-gradient(to top right, rgba(236, 72, 153, 1) 0%,rgba(124, 58, 237, 1) 100%);
+}
