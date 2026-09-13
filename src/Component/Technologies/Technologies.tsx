@@ -18,16 +18,16 @@ const Technologies = ({
   const[selectedStack,setSelectedStack] =useState<ITechnologies[]>([])
   return (
     <>
-      <div className="container m-auto flex flex-col gap-1 md:gap-2 justify-center md:justify-start items-center md:items-start">
+      <div className="container px-5 m-auto md:flex md:flex-col gap-1 md:gap-2 justify-center md:justify-start items-center md:items-start">
         <h2 className="md:text-[32px] text-3xl font-semibold md:font-extrabold inter-font">
-          Explore the{" "}
+          Explore the <br />
           <span className="inter-font brand-text ">Technologies</span>
         </h2>
         <p className="text-[#64748bFF] text-[12px] md:text-[16px] md:max-w-xl max-w-4xs">
           Pick one technology per category to build your ideal stack.
         </p>
       </div>
-      <div className="flex justify-between container mx-auto gap-x-5">
+      <div className="md:flex justify-between md:container md:mx-auto md:gap-x-5">
         <AvailableTechnologie
           technologies={technologies}
           stackNumber={stackNumber}

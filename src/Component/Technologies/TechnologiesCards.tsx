@@ -34,7 +34,7 @@ const TechnologiesCards = ({
   return (
     <div
       key={technologie.id}
-      className=" flex flex-col gap-5  p-7 border border-gray-200 rounded-2xl mx-auto"
+      className=" flex flex-col gap-5  p-4 md:p-7 border border-gray-200 rounded-2xl mx-auto "
     >
       <div className="flex justify-between ">
         <img src={technologie.icon} alt="" className="w-8" />

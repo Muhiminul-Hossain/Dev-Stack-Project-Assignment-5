@@ -13,7 +13,7 @@ const Banner = () => {
             them side by side, and put together the stack that fits your next
             project.
           </p>
-          <div className="md:my-5">
+          <div className="md:my-5 flex md:">
             <button className="btn btn-neutral border-0 font-semibold bg-brand-color rounded-md md:px-4 md:py-2">Explore Technologies</button>
             <button className="btn btn-outline border-[#6e6b6b55] font-semibold rounded-md md:px-12 md:py-2 mx-5">Learn More</button>
           </div>
