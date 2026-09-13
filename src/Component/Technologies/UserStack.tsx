@@ -20,13 +20,13 @@ const UserStack = ({
     const restStack = selectedStack.filter((item) => {
       return item.id !== technologie.id;
     });
-    toast(`${technologie.name} Remove from Stack`)
+    toast(`${technologie.name} Remove from Stack`);
     setSelectedStack(restStack);
     setStackNumber((stackNum) => (stackNum > 0 ? stackNum - 1 : 0));
   };
 
   const handleRemoveAllStack = () => {
-    toast("All stacks are Removed")
+    toast("All stacks are Removed");
     setSelectedStack([]);
     setStackNumber(0);
   };

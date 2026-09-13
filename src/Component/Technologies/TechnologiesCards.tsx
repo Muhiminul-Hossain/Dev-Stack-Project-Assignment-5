@@ -65,7 +65,7 @@ const TechnologiesCards = ({
             : "btn btn-neutral my-5 "
         }
       >
-        {inStack === true ? "Added to Stock" : "Add to Stock"}
+        {inStack === true ? "Added to Stack" : "Add to Stack"}
       </button>
     </div>
   );
